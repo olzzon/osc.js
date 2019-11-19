@@ -7,6 +7,7 @@
 
 /* global require, module, process, Buffer, Long, util */
 
+var {TextEncoder, TextDecoder} = require("fastestsmallesttextencoderdecoder");
 var osc = osc || {};
 
 (function () {
